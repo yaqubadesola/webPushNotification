@@ -19,7 +19,7 @@ function App() {
   }).catch(err => console.log('failed: ', err));
 
   const onShowNotificationClicked = () => {
-    setNotification({title: "Notification", body: "This is a test notification"})
+    setNotification({title: "Sample Notification", body: "This is a test notification preconfigured"})
     setShow(true);
   }
 
